@@ -68,7 +68,7 @@ public:
 };
 
 int main() {
-    cout << "Create\n";
+  	cout << "Create\n";
 	CircularBuffer exampleCircularBuffer(8);
 	exampleCircularBuffer.pushBack(6);
 	// 6
@@ -80,7 +80,7 @@ int main() {
 	// 6 7 8 
 	exampleCircularBuffer.DisplayBuffer();
     
-    cout << "Add front\n";
+        cout << "Add front\n";
 	exampleCircularBuffer.pushFront(5);
 	exampleCircularBuffer.pushFront(4);
 	exampleCircularBuffer.pushFront(3);
@@ -120,7 +120,7 @@ int main() {
 	CircularBuffer secondExample;
 	secondExample.DisplayBuffer();
 	// capacity: 10
-    // size: 0
+        // size: 0
 	secondExample.sizeBuffer();
 	cout << "pop back\n";
 	// Buffer is empty
@@ -128,7 +128,7 @@ int main() {
 	cout << "pop front\n";
 	// Buffer is empty
 	secondExample.popFront();
-    cout << "\n----------------\n";
+        cout << "\n----------------\n";
 
 	return 0;
 }
